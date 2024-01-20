@@ -1,3 +1,6 @@
+*{
+    margin: 0;
+}
 body{
     // height: 100vh;
     margin: 0;
@@ -48,16 +51,16 @@ body{
         }
     }
     .footer{
-        border-radius: 8px;
-        background-color: rgba(219, 174, 111,0.5);
+        // border-radius: 8px;
+        // background-color: rgba(219, 174, 111,0.5);
         position:fixed;
         bottom: 0;
         width: 100%;
         display: flex;
-        p{
-            display: flex;
-            justify-content: center;
-            text-align: center;
-        }
+        // p{
+        //     display: flex;
+        //     justify-content: center;
+        //     text-align: center;
+        // }
     }
 }
