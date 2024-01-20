@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+body .header {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background: url("../img/bgpic4.jpg") center center/cover;
+  height: auto;
+}
+body .header .logo {
+  position: relative;
+  bottom: 40px;
+  right: 40px;
+  width: 75px;
+  border-radius: 50%;
+}
+body .header .header-content {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  border-radius: 10px;
+}
+body .header .header-content p {
+  font-size: 1.3rem;
+}
+body .essayez {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+body .essayez .available {
+  display: flex;
+  justify-content: center;
+}
+body .essayez .available .image-available {
+  width: 200px;
+  height: 50px;
+}
+body .footer {
+  border-radius: 8px;
+  background-color: rgba(219, 174, 111, 0.5);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+}
+body .footer p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+/*# sourceMappingURL=main.css.map */
